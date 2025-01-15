@@ -1,0 +1,135 @@
+body {
+  background-color:rgb(151, 169, 124)	;
+ 
+}
+
+ h1 {
+  background-image: linear-gradient();
+  
+  color: rgb(188, 71, 73);
+  display: flex;
+  justify-content: center;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  font-family: serif;
+ }
+
+
+.m-10 {
+  margin: 10px;
+}
+
+.container {
+  margin-top: 50px;
+  margin-left: 300px;
+  margin-right: 300px;
+  padding: 50px 50px ;
+  background-color: rgb(207, 225, 185);
+  border: 2px solid;
+  border-color:rgb(188, 71, 73) ;
+
+}
+.all-inputs {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.input-dropdown {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.input-dropdown .first-input { 
+  width: 100%;
+}
+
+
+.text-area {
+  width: 100%;
+}
+
+.first-textarea {
+  width: 100%;
+  margin-bottom: 20px;
+  background-color: rgb(113, 131, 85);
+  border: solid  rgb(188, 71, 73);
+}
+
+
+.btn {
+  padding-right:20px ;
+  padding-left: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background-color: rgb(135, 152, 106);
+  border-color: rgb(188, 71, 73);
+  color: white;
+  font-size: 15px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+.cards {
+  background-color:rgb(233, 245, 219);
+  width: 70%;
+  border: 2px solid ;
+  border-color: rgb(188, 71, 73);
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.cards h2 , h5{
+  padding-left: 10px;
+  margin-bottom: 0px;
+  margin-top: 10px;
+
+}
+ 
+ .cards h4 {
+  padding-bottom: 20px;
+
+  padding-left: 10px;
+  
+}
+
+.deleted-btn {
+  padding: 5px;
+  background-color: rgb(181, 201, 154);
+  border: solid  rgb(188, 71, 73);
+  cursor: pointer;
+}
+
+.edited-btn {
+  padding: 5px;
+  background-color: rgb(181, 201, 154);
+  border: solid  rgb(188, 71, 73);;
+  cursor: pointer;
+}
+
+.delete-btn-div {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 10px;
+}
+.irst-input m-10 {
+   background-color: rgb(233, 245, 219);
+  border: solid  rgb(188, 71, 73);
+}
+
+.m-10 {
+  background-color: rgb(233, 245, 219);
+  border: solid  rgb(188, 71, 73);
+}
+
+.svgs {
+  display: flex ;
+      justify-content: center;
+     
+}
+.edit-btn {
+  margin-right: 5px;
+}

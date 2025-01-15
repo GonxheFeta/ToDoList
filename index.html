@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>ToDoList Green</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  
+  <div class="todo-title">
+    <h1> TO DO LIST</h1>
+  </div>
+
+<div class="container">
+  <div class="all-inputs">
+      <div class="input-dropdown">
+          <input id="title" class="first-input m-10" type="text" placeholder="Tasks To Do...">
+        
+          <select id="category" class="m-10" name="todo" id="todo">
+            <option value="work">Work</option>
+            <option value="movie">Movie</option>
+            <option value="going-out">Going Out</option>
+            <option value="fitness">Fitness</option>
+          </select>
+      </div>
+
+      <input type="hidden" id="id" value="" >
+ 
+    
+      <div class="text-area">    
+        <textarea id="description" class="first-textarea m-10" name="description"  placeholder="Description"></textarea>
+      </div>
+
+      <button class="btn" id="saveBtn">SAVE</button>
+  </div>
+
+  <div id="mytodos">
+   
+  </div>
+
+</div>
+
+
+
+
+
+
+
+
+  <script src="index.js"> </script>
+</body>
+</html>
